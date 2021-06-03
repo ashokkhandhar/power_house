@@ -171,13 +171,17 @@ footer{
     position: absolute;
     width: 14%;
     margin-left: 540px;
-    margin-top: 85px;
+    margin-top: 58px;
 }
 .socialmedia{
-    margin-top: 58px;
-    margin-right: 0px;
+    margin-top: 53px;
+    margin-right: 14px;
     position: absolute;
     right: 0px;
+}
+.socialmedia ul{
+    padding: 0px;
+    margin: 0px;
 }
 .socialmedia li{
     text-align: center;
