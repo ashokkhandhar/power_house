@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="shortcut icon" href="img/pw.ico" type="image/x-icon" />
+    <title>Power house | Join</title>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <a href="index.html""><div class="logo"></div></a>
+            <div>Power House</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+                <li><a href="contectus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a class="btn" href="#" id="active">Join</a>
+        </div>
+    </header>
+    <div class="container">
+        <p>Join</p>
+        <form action="join.php" method="POST">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="age" placeholder="Age" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="gender" placeholder="Gender" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="locality" placeholder="Locality" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="number" name="phone" placeholder="Phone Number" required>
+            </div>
+            <button class="btn" onclick="myFunction()">Join</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="copyright">© 2021 | power house</div>
+        <div class="socialmedia">
+            <ul>
+                <li><a href="https://facebook.com"><div id="f"></div></a></li>
+                <li><a href="https://instagram.com"><div id="i"></div></a></li>
+                <li><a href="https://twitter.com"><div id="t"></div></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+    function myFunction() {
+        alert("account created successfull");
+    }
+    </script>
+</body>
+</html>
