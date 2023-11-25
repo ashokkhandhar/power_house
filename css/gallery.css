@@ -1,0 +1,354 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/back3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* height: 600px; */
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.left{
+    display: inline-block;
+    position:absolute;
+    left: 34px;
+    top: 20px;
+    text-align: center;
+}
+
+.left .logo{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 81px;
+    width: 83px;
+    height: 73px;
+    /* filter: invert(100%); */
+}
+.left .logo:hover{
+    background-image: url("../img/r-logo.png");
+    background-repeat: no-repeat;
+    background-size: 81px;
+}
+.left div{
+    line-height: 19px;
+    font-size: 14px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 50px;
+    /* margin: 20px auto; */
+}
+
+.right{
+    display: inline-block;
+    position:absolute;
+    right: 34px;
+    top: 45px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+}
+
+.navbar li a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.navbar li a.active{
+    text-decoration: underline red;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.082);
+    color: white;
+    padding: 2px 10px;
+    border: 2px solid rgba(128, 128, 128, 0.308);
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.btn:hover {
+    background-color: rgba(63, 63, 63, 0.397);
+    color: red;
+}
+.container h1{
+    margin-left: 156px;
+    margin-top: 247px;
+    font-size: 56px;
+    width: 43%;
+}
+.container span{
+    color: red;
+}
+.container .heading{
+    color: rgb(0, 0, 0);
+    font-size: 53px;
+    margin-top: 240px;
+    margin-left: 554px;
+}
+.services{
+    margin-top: 60px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+#s1 .sicon{
+    background-image: url("../img/IMG_1283.jpg");
+    background-repeat: no-repeat;
+    background-size: 277px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    left: 175px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s1 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s2 .sicon{
+    background-image: url("../img/932408b50839bb6ead7daaf9ba480de4.jpg");
+    background-repeat: no-repeat;
+    background-size: 312px;
+    box-shadow: none;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    left: 495px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s2 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s3 .sicon{
+    background-image: url("../img/cleangym.jpg");
+    background-repeat: no-repeat;
+    background-size: 312px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    right: 175px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s3 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s4 .sicon{
+    background-image: url("../img/istockphoto-974165230-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: 370px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    left: 175px;
+    margin-top: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s4 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s5 .sicon{
+    background-image: url("../img/fitness-4-1500x77.jpg");
+    background-repeat: no-repeat;
+    background-size: 402px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    left: 495px;
+    margin-top: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s5 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s6 .sicon{  
+    background-image: url("../img/fitness-6-1500x77-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 401px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    right: 175px;
+    margin-top: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s6 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s7 .sicon{  
+    background-image: url("../img/gym-coronavirus.jpg");
+    background-repeat: no-repeat;
+    background-size: 312px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    left: 175px;
+    margin-top: 560px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s7 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s8 .sicon{  
+    background-image: url("../img/gym-unsplash-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: 314px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    left: 495px;
+    margin-top: 560px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s8 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s9 .sicon{  
+    background-image: url("../img/technogymw.jpg");
+    background-repeat: no-repeat;
+    background-size: 398px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    right: 175px;
+    margin-top: 560px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s9 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s10 .sicon{  
+    background-image: url("../img/tumblr.jpg");
+    background-repeat: no-repeat;
+    background-size: 318px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    left: 175px;
+    margin-top: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s10 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s11 .sicon{  
+    background-image: url("../img/workout-gym-exercise-equipment-shutterstock.jpg");
+    background-repeat: no-repeat;
+    background-size: 304px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    left: 495px;
+    margin-top: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s11 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#s12 .sicon{  
+    background-image: url("../img/istockphoto-502587982-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: 315px;
+    box-shadow: none;
+    width: 277px;
+    height: 208px;
+    position: absolute;
+    right: 175px;
+    margin-top: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#s12 .sicon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.footer{
+    margin-top: 1111px;
+    background-color: rgb(0 0 0);
+    color: white;
+    height: 53px;
+}
+.copyright{
+    display:inline-block block;
+    text-align: center;
+    position: absolute;
+    width: 14%;
+    margin-left: 540px;
+    margin-top: 11px;
+}
+.socialmedia{
+    margin-top: 8px;
+    position: absolute;
+    margin-right: 15px;
+    right: 0;
+}
+.socialmedia ul{
+    padding: 0px;
+    margin-top: 0px;
+    height: 25px;
+}
+.socialmedia li{
+    text-align: center;
+    display:inline-block;
+    padding: 8px;
+}
+
+.socialmedia #f{
+    background-image: url("../img/f.png");
+    background-repeat: no-repeat;
+    background-size: 10px;
+    width: 11px;
+    height: 20px;
+}
+.socialmedia #f:hover{
+    background-image: url("../img/f1.png");
+    background-repeat: no-repeat;
+    background-size: 10px;
+}
+
+.socialmedia #i{
+    background-image: url("../img/i.png");
+    background-repeat: no-repeat;
+    background-size: 21px;
+    width: 21px;
+    height: 21px;
+}
+.socialmedia #i:hover{
+    background-image: url("../img/i1.png");
+    background-repeat: no-repeat;
+    background-size: 21px;
+}
+
+.socialmedia #t{
+    background-image: url("../img/t.png");
+    background-repeat: no-repeat;
+    background-size: 23px;
+    width: 23px;
+    height: 20px;
+}
+.socialmedia #t:hover{
+    background-image: url("../img/t1.png");
+    background-repeat: no-repeat;
+    background-size: 23px;
+}
